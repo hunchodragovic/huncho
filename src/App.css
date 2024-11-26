@@ -1,10 +1,33 @@
 
-html,body{
-  margin: 0;
+#root {
+  display: flex;
+  flex-direction: column;
 }
-img{
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+
+}
+header img{
   width: 150px;
 }
 header{
-  background-color: red;
+  position: fixed; /* Keeps the header at the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensures it spans the full width of the page */
+  background-color: #f8f9fa; /* Optional: Add a background color */
+  padding: 10px; /* Adjust padding as needed */
+  z-index: 1000; /* Keeps it above other content */
+  background-color: rgb(89, 0, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 55px;
+}
+header h1 {
+ 
 }
