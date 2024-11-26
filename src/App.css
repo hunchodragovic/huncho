@@ -1,3 +1,10 @@
-#root{
-  background-color: blueviolet;
+
+html,body{
+  margin: 0;
+}
+img{
+  width: 150px;
+}
+header{
+  background-color: red;
 }
